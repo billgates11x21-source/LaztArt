@@ -1,0 +1,15 @@
+{
+  "name": "laztart",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network base",
+    "verify": "node scripts/verify.js",
+    "arbitrage": "node scripts/runArbitrage.js"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "axios": "^1.4.0",
+    "hardhat": "^2.20.0"
+  }
+}
